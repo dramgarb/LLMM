@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de SVG - Web4U</title>
+    <link rel="stylesheet" href="/Web4U/assets/styles/style.css">
+</head>
+<body>
+<style>
+    /* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #3e4e61;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la página principal y los ejemplos */
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3e4e61;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Estilos de los artículos (ejemplos) */
+article {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    color: #006699;
+    margin-bottom: 10px;
+}
+
+article pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #006699;
+    overflow-x: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3e4e61;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Estilos adicionales */
+h4 {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+</style>
+    <header>
+        <h1>Ejemplos de SVG</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Etiquetas SVG</h2>
+
+            <!-- Ejemplo 1: Etiqueta <circle> -->
+            <article id="ejemplo-circle">
+                <h3>Etiqueta &lt;circle&gt; (Círculo)</h3>
+                <p>La etiqueta <code>&lt;circle&gt;</code> se utiliza para dibujar círculos en SVG.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;circle cx="50" cy="50" r="40" fill="blue" /&gt;
+&lt;/svg&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado1svg.png" alt="Resultado de la etiqueta <circle> en el navegador">
+                <p>Para más información, visita la <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Documentación W3C sobre <circle>">documentación de W3S</a>.</p>
+            </article>
+
+            <!-- Ejemplo 2: Etiqueta <rect> -->
+            <article id="ejemplo-rect">
+                <h3>Etiqueta &lt;rect&gt; (Rectángulo)</h3>
+                <p>La etiqueta <code>&lt;rect&gt;</code> se usa para dibujar rectángulos.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;rect width="80" height="50" x="10" y="25" fill="green" /&gt;
+&lt;/svg&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado2svg.png" alt="Resultado de la etiqueta <rect> en el navegador">
+                <p>Consulta la <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Documentación W3C sobre <rect>">documentación de W3S</a> para más detalles.</p>
+            </article>
+
+            <!-- Ejemplo 3: Etiqueta <line> -->
+            <article id="ejemplo-line">
+                <h3>Etiqueta &lt;line&gt; (Línea)</h3>
+                <p>La etiqueta <code>&lt;line&gt;</code> dibuja una línea recta entre dos puntos.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;line x1="10" y1="10" x2="90" y2="90" stroke="red" stroke-width="2" /&gt;
+&lt;/svg&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado3svg.png" alt="Resultado de la etiqueta <line> en el navegador">
+                <p>Para más información, visita la <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Documentación W3C sobre <line>">documentación de W3S</a>.</p>
+            </article>
+
+            <!-- Ejemplo 4: Etiqueta <ellipse> -->
+            <article id="ejemplo-ellipse">
+                <h3>Etiqueta &lt;ellipse&gt; (Elipse)</h3>
+                <p>La etiqueta <code>&lt;ellipse&gt;</code> se usa para dibujar elipses.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;ellipse cx="50" cy="50" rx="30" ry="20" fill="purple" /&gt;
+&lt;/svg&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado4svg.png" alt="Resultado de la etiqueta <ellipse> en el navegador">
+                <p>Revisa la <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Documentación W3C sobre <ellipse>">documentación de W3S</a> para aprender más.</p>
+            </article>
+
+            <!-- Ejemplo 5: Etiqueta <polygon> -->
+            <article id="ejemplo-polygon">
+                <h3>Etiqueta &lt;polygon&gt; (Polígono)</h3>
+                <p>La etiqueta <code>&lt;polygon&gt;</code> define formas de múltiples lados a partir de una serie de puntos.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;polygon points="50,15 90,80 10,80" fill="orange" /&gt;
+&lt;/svg&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado5svg.png" alt="Resultado de la etiqueta <polygon> en el navegador">
+                <p>Para más información, visita la <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Documentación W3C sobre <polygon>">documentación de W3S</a>.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Web4U - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
