@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de HTML - Web4U</title>
+    <link rel="stylesheet" href="/Web4U/assets/styles/style.css">
+</head>
+<body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1, main h2, h3 {
+    color: #333;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+article {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: #555;
+}
+
+pre {
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer p {
+    margin: 0;
+}
+</style>
+    <header>
+        <h1>Ejemplos de HTML</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="css.html">CSS</a>
+            <a href="svg.html">SVG</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Etiquetas HTML</h2>
+
+            <!-- Ejemplo 1: Etiqueta <p> -->
+            <article id="ejemplo-p">
+                <h3>Etiqueta &lt;p&gt; (Párrafo)</h3>
+                <p>La etiqueta <code>&lt;p&gt;</code> se utiliza para definir párrafos en HTML.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado1html.png" alt="Resultado de la etiqueta <p> en el navegador">
+                <p>Para más información, visita la <a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Documentación W3C sobre <p>">documentación de W3S</a>.</p>
+            </article>
+
+            <!-- Ejemplo 2: Etiqueta <a> -->
+            <article id="ejemplo-a">
+                <h3>Etiqueta &lt;a&gt; (Enlace)</h3>
+                <p>La etiqueta <code>&lt;a&gt;</code> se usa para crear enlaces a otras páginas o recursos.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;a href="https://www.ejemplo.com"&gt;Visitar Ejemplo&lt;/a&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado2html.png" alt="Resultado de la etiqueta <a> en el navegador">
+                <p>Para más detalles, revisa la <a href="https://www.w3schools.com/html/default.asp" title="Documentación W3C sobre <a>">documentación de W3S</a>.</p>
+            </article>
+
+            <!-- Ejemplo 3: Etiqueta <img> -->
+            <article id="ejemplo-img">
+                <h3>Etiqueta &lt;img&gt; (Imagen)</h3>
+                <p>La etiqueta <code>&lt;img&gt;</code> se usa para incrustar imágenes en una página HTML.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;img src="ruta/imagen.jpg" alt="Descripción de la imagen"&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado3html.png" alt="Resultado de la etiqueta <img> en el navegador">
+                <p>Más información en la <a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Documentación W3C sobre <img>">documentación de W3S</a>.</p>
+            </article>
+
+            <!-- Ejemplo 4: Etiqueta <ul> y <li> -->
+            <article id="ejemplo-ul-li">
+                <h3>Etiquetas &lt;ul&gt; y &lt;li&gt; (Lista)</h3>
+                <p>La etiqueta <code>&lt;ul&gt;</code> define una lista sin orden, y <code>&lt;li&gt;</code> define los elementos de la lista.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado4html.png" alt="Resultado de la etiqueta <ul> en el navegador">
+                <p>Consulta la <a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Documentación W3C sobre <ul> y <li>">documentación de W3S</a> para más detalles.</p>
+            </article>
+
+            <!-- Ejemplo 5: Etiqueta <table> -->
+            <article id="ejemplo-table">
+                <h3>Etiqueta &lt;table&gt; (Tabla)</h3>
+                <p>La etiqueta <code>&lt;table&gt;</code> se usa para crear tablas en HTML.</p>
+                <h4>Ejemplo de código:</h4>
+                <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                <h4>Resultado en el navegador:</h4>
+                <img src="resultado5html.png" alt="Resultado de la etiqueta <table> en el navegador">
+                <p>Revisa la <a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Documentación W3C sobre <table>">documentación de W3S</a> para aprender más.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Web4U - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
