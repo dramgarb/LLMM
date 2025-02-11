@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liga Española</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="path/to/darkMode.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <li class="nav-item">
+                <button id="toggleDarkMode" class="btn btn-outline-light">Modo Oscuro</button>
+            </li>            
+        </div>
+    </nav>
+
+    <section class="container mt-5">
+        <h2 class="text-center">Clasificación de la Liga Española</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Equipo</th>
+                    <th>Partidos Jugados</th>
+                    <th>Ganados</th>
+                    <th>Perdidos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Real Madrid</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Barcelona</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Atlético de Madrid</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const darkModeToggle = document.getElementById("toggleDarkMode");
+            const body = document.body;
+    
+            // Verificar si el usuario ya activó el modo oscuro previamente
+            if (localStorage.getItem("dark-mode") === "enabled") {
+                body.classList.add("dark-mode");
+            }
+    
+            darkModeToggle.addEventListener("click", function () {
+                body.classList.toggle("dark-mode");
+    
+                // Guardar la preferencia en localStorage
+                if (body.classList.contains("dark-mode")) {
+                    localStorage.setItem("dark-mode", "enabled");
+                } else {
+                    localStorage.setItem("dark-mode", "disabled");
+                }
+            });
+        });
+    </script>
+    
+    <footer class="bg-dark text-white text-center p-3 mt-4">&copy; 2025 - Proyecto Bootstrap</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
