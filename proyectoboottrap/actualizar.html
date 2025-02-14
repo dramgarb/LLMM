@@ -1,0 +1,35 @@
+import requests
+from bs4 import BeautifulSoup
+
+# Función para obtener resultados de búsqueda de Google
+def obtener_resultados_google(query):
+    url = f"https://www.google.com/search?q={query}"
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
+    
+    # Verificar si la solicitud fue exitosa
+    if response.status_code != 200:
+        print("Error al realizar la solicitud:", response.status_code)
+        return []
+
+    # Analizar el contenido HTML
+    soup = BeautifulSoup(response.text, 'html.parser')
+    resultados = []
+    
+    # Extraer títulos y descripciones
+    for item in soup.find_all('h3'):
+        titulo = item.get_text()
+        descripcion = item.find_next('span').get_text() if item.find_next('span') else ''
+        resultados.append({'titulo': titulo, 'descripcion': descripcion})
+    
+    return resultados
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    query = 'resultados deportivos en vivo'
+    resultados = obtener_resultados_google(query)
+    
+    # Mostrar los resultados
+    for resultado in resultados:
+        print(f"Título: {resultado['titulo']}")
+        print(f"Descripción: {resultado['descripcion']}\n")

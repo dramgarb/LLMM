@@ -1,0 +1,140 @@
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+.dark-mode .card {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #333;
+}
+
+.dark-mode a {
+    color: #1e90ff; /* Cambia los enlaces a un azul claro */
+}
+
+/* Estilo para dispositivos con pantallas grandes (PC y tablets grandes) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+}
+
+/* Estilo para dispositivos con pantallas medianas (tabletas y móviles grandes) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+
+/* Estilo para dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .carousel-inner img {
+        height: 200px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    margin: 10px;
+}
+
+/* En pantallas pequeñas, los elementos se apilan verticalmente */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    margin: 10px;
+}
+
+/* En pantallas pequeñas, los elementos se apilan verticalmente */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+.button {
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+
+.parallax {
+    background-image: url('fondo.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
