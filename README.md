@@ -37,8 +37,6 @@ Ejercicio | Descripcion
 
 # Tema 2 - CSS
 
-----------|--------------
-
 [Actividad1](/css/actividad1.css)|
 [Actividad2](/css/actividad2.css)|
 [Actividad3](/css/actividad3.css)|
