@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    float: left;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.6em;
+    word-spacing: 2em;
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: darkred;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    margin: 0 0 10px 0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* For Two Columns Layout */
+.two-columns {
+    display: flex;
+}
+
+.two-columns > div {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Years Styling */
+.year {
+    font-weight: bold;
+}
+
+/* Centering Div */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

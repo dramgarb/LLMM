@@ -1,0 +1,37 @@
+table {
+  width: 50%;
+  border-collapse: collapse; /* Elimina los espacios entre las celdas */
+  margin: 20px auto; /* Centra la tabla en la página */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Bordes suaves entre celdas */
+  padding: 8px;
+  text-align: center; /* Texto centrado */
+}
+
+th {
+/* Fondo gris claro para encabezados */
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff; /* Fondo blanco para celdas */
+}
+
+.final {
+    color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  background-color: #424141; /* Fondo gris claro para el texto descriptivo */
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; /* Bordes suaves para el caption */
+}
+
+.principio {
+color: #ffffff;
+background-color: #424141;
+}

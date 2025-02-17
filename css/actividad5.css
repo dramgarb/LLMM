@@ -1,0 +1,31 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Elimina los espacios entre las celdas */
+}
+
+table, th, td {
+  border: 1px solid black; /* Bordes negros */
+}
+
+caption {
+  caption-side: top; /* Título encima de la tabla */
+  font-weight: bold;
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: gray; /* Fondo gris para encabezados */
+  color: black; /* Texto negro */
+  font-weight: bold;
+  padding: 10px;
+  text-align: center; /* Texto centrado */
+}
+
+td {
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Texto centrado */
+}
