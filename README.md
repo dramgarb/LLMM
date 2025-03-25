@@ -37,18 +37,18 @@ Ejercicio | Descripcion
 
 # Tema 2 - CSS
 
-[Actividad1](/css/actividad1.css)|
-[Actividad2](/css/actividad2.css)|
-[Actividad3](/css/actividad3.css)|
-[Actividad4](/css/actividad4.css)|
-[Actividad5](/css/actividad5.css)|
-[Actividad6](/css/actividad6.css)|
-[Actividad7](/css/actividad7.css)|
-[Actividad8](/css/actividad8.css)|
-[Actividad9](/css/actividad9.css)|
-[Actividad10](/css/actividad10.css)|
-[Actividad11](/css/actividad11.css)|
-[Actividad12](/css/actividad12.css)|
+[Actividad1](/css/actividad1.html)|
+[Actividad2](/css/actividad2.html)|
+[Actividad3](/css/actividad3.html)|
+[Actividad4](/css/actividad4.html)|
+[Actividad5](/css/actividad5.html)|
+[Actividad6](/css/actividad6.html)|
+[Actividad7](/css/actividad7.html)|
+[Actividad8](/css/actividad8.html)|
+[Actividad9](/css/actividad9.html)|
+[Actividad10](/css/actividad10.html)|
+[Actividad11](/css/actividad11.html)|
+[Actividad12](/css/actividad12.html)|
 
 
 
