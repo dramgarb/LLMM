@@ -54,5 +54,5 @@ Ejercicio | Descripcion
 
 #Tema 3 - JS
 
-[Actividad1](/js/actividad1.js)|
-[Actividad2](/js/actividad2.js)|
+[Actividad1](/js/actividad1.html)|
+[Actividad2](/js/actividad2.html)|
