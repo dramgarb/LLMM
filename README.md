@@ -49,3 +49,10 @@ Ejercicio | Descripcion
 [Actividad10](/css/actividad10.css)|
 [Actividad11](/css/actividad11.css)|
 [Actividad12](/css/actividad12.css)|
+
+
+
+#Tema 3 - JS
+
+[Actividad1](/js/actividad1.js)|
+[Actividad2](/js/actividad2.js)|
