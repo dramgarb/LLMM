@@ -60,3 +60,4 @@ Ejercicio | Descripcion
 ----------|--------------
 [Actividad1](/js/actividad1/js01.html)|
 [Actividad2](/js/actividad2/js02.html)|
+[Actividad3](/js/actividad3/js03.html)|
