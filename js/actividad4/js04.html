@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables en JavaScript</title>
+    <script>
+        function mostrarValor() {
+            var valor = document.getElementById("inputValor").value;
+            document.getElementById("resultado").innerHTML = "Valor ingresado: " + valor;
+        }
+    </script>
+</head>
+<body>
+    <h2>Ingresar un valor</h2>
+    <input type="text" id="inputValor">
+    <button onclick="mostrarValor()">Mostrar</button>
+    <p id="resultado"></p>
+</body>
+</html>
