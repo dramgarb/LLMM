@@ -62,3 +62,4 @@ Ejercicio | Descripcion
 [Actividad2](/js/actividad2/js02.html)|
 [Actividad3](/js/actividad3/js03.html)|
 [Actividad4](/js/actividad4/js04.html)|
+[Actividad5](/js/actividad5/js05.html)|
