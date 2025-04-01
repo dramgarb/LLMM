@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Básicos</title>
+    <style>
+        #parrafo {
+            font-size: 18px;
+        }
+        #mensaje {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+    <script src="js05.js"></script>
+</head>
+<body>
+    <h2>Cambiar estilo de párrafo</h2>
+    <p id="parrafo">Este es un párrafo de ejemplo.</p>
+    <button onclick="cambiarEstilo('Arial')">Arial</button>
+    <button onclick="cambiarEstilo('Courier New')">Courier New</button>
+    <button onclick="cambiarEstilo('Georgia')">Georgia</button>
+
+    <h2>Cambiar imagen</h2>
+    <img id="imagen" src="imagen1.jpg" alt="Imagen" style="width:200px"><br>
+    <button onclick="cambiarImagen('spiderman1.gif')">Imagen 1</button>
+    <button onclick="cambiarImagen('coche1.jpg')">Imagen 2</button>
+    <button onclick="cambiarImagen('coche6.jpg')">Imagen 3</button>
+
+    <h2>Mostrar mensaje</h2>
+    <div id="mensaje">Mensaje inicial</div>
+    <button onclick="mostrarMensaje('Hola, bienvenido!')">Mensaje 1</button>
+    <button onclick="mostrarMensaje('JavaScript es divertido!')">Mensaje 2</button>
+    <button onclick="mostrarMensaje('¡Sigue practicando!')">Mensaje 3</button>
+</body>
+</html>
