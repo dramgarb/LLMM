@@ -72,7 +72,7 @@ Ejercicio | Descripcion
 [Actividad6](/js/actividad6/js06.html)|
 [Actividad7](/js/actividad7/index.html)|
 [Actividad8](/js/actividad8/js08.html)|
-[Actividad9](/js/actividad8/index.html)|
+[Actividad9](/js/actividad9/index.html)|
 [Actividad10](/js/actividad10)|[A](/js/actividad10/apartadoA.html)
 [Actividad10](/js/actividad10)|[B](/js/actividad10/apartadoB.html)
 [Actividad10](/js/actividad10)|[C](/js/actividad10/apartadoC.html)
