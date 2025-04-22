@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<script>
+function isVowel(x) {
+  return x == "A" || x == "E" || x == "I" || x == "O" || x == "U" || x == "a" || x == "e" || x == "i" || x == "o" || x == "u";
+}
+ 
+function mostrar() {
+    c = document.getElementById("text").value;
+    if (c.length > 1)
+        document.getElementById("res").innerHTML = "Debe introducir un carácter solo";
+    else if (isVowel(c))
+        document.getElementById("res").innerHTML = "Es Vocal";
+    else
+        document.getElementById("res").innerHTML = "NO Es Vocal";  
+}
+</script>
+ 
+<body>
+<p>Introduzca un carácter y pulse el botón para comprobar si es vocal</p><br>
+<input type="text" id="text" name="text"><br>
+<button onclick="mostrar()">Pulse</button><br>
+<p id="res"></p>
+</body>
+</html>

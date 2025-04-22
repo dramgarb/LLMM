@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function reverse(texto) {
+      return texto.split("").reverse().join("");
+    }
+
+    function mostrarReverso() {
+      let texto = document.getElementById("entrada").value;
+      let resultado = reverse(texto);
+      document.getElementById("res").innerHTML = resultado;
+    }
+  </script>
+</head>
+<body>
+  <h2>Reversor de Texto</h2>
+  <p>Introduce un texto y se mostrará al revés:</p>
+  <input type="text" id="entrada"><br><br>
+  <button onclick="mostrarReverso()">Invertir</button>
+  <p id="res"></p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function findLongestWord(texto) {
+      let palabras = texto.split(",");
+      let maxLongitud = 0;
+      for (let i = 0; i < palabras.length; i++) {
+        let palabra = palabras[i].trim();
+        if (palabra.length > maxLongitud) {
+          maxLongitud = palabra.length;
+        }
+      }
+      return maxLongitud;
+    }
+
+    function mostrarLongest() {
+      let entrada = document.getElementById("entrada").value;
+      let resultado = findLongestWord(entrada);
+      document.getElementById("res").innerHTML = 
+        "Longitud de la palabra más larga: " + resultado;
+    }
+  </script>
+</head>
+<body>
+  <h2>Palabra más larga</h2>
+  <p>Introduce una lista de palabras separadas por comas:</p>
+  <input type="text" id="entrada"><br><br>
+  <button onclick="mostrarLongest()">Buscar</button>
+  <p id="res"></p>
+</body>
+</html>

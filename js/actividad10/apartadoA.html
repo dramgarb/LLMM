@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function mayor(n1,n2) {
+    var m;
+    if (n1 > n2)
+        m = n1;
+    else
+        m = n2;
+    return m;
+}
+ 
+function muestraMayor() {
+    var n1 = document.getElementById('n1').value;
+    var n2 = document.getElementById('n2').value;
+    document.getElementById("res").innerHTML = mayor(n1,n2);
+}
+
+
+</script>
+
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p>Muestra el maryor de dos números</p><br>
+    <label for="n1">Número 1 : </label>
+    <input type="text" id="n1" name="n1"> <br>
+    <label for="n1">Número 2 : </label>
+    <input type="text" id="n2" name="n2"> <br>
+    <button type="button" onclick="muestraMayor()">Mostrar Mayor</button><br>
+    <p id="res"></p> 
+</body>
+</html>

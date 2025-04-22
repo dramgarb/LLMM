@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function maxOfThree(a, b, c) {
+      if (a >= b && a >= c) {
+        return a;
+      } else if (b >= a && b >= c) {
+        return b;
+      } else {
+        return c;
+      }
+    }
+
+    function mostrarMaximo() {
+      let n1 = parseFloat(document.getElementById('n1').value);
+      let n2 = parseFloat(document.getElementById('n2').value);
+      let n3 = parseFloat(document.getElementById('n3').value);
+      let resultado = maxOfThree(n1, n2, n3);
+      document.getElementById("res").innerHTML = "El mayor es: " + resultado;
+    }
+  </script>
+</head>
+<body>
+  <h2>Máximo de tres números</h2>
+  <label for="n1">Número 1:</label>
+  <input type="text" id="n1"><br>
+  <label for="n2">Número 2:</label>
+  <input type="text" id="n2"><br>
+  <label for="n3">Número 3:</label>
+  <input type="text" id="n3"><br>
+  <button onclick="mostrarMaximo()">Mostrar mayor</button>
+  <p id="res"></p>
+</body>
+</html>

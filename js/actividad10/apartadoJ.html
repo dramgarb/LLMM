@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function charFreq(texto) {
+      let freq = {};
+      for (let i = 0; i < texto.length; i++) {
+        let letra = texto[i];
+        if (letra === " ") continue; // Ignorar espacios
+        if (freq[letra]) {
+          freq[letra]++;
+        } else {
+          freq[letra] = 1;
+        }
+      }
+      return freq;
+    }
+
+    function mostrarFrecuencia() {
+      let texto = document.getElementById("entrada").value;
+      let resultado = charFreq(texto);
+      let salida = "";
+      for (let letra in resultado) {
+        salida += letra + ": " + resultado[letra] + "<br>";
+      }
+      document.getElementById("res").innerHTML = salida;
+    }
+  </script>
+</head>
+<body>
+  <h2>Frecuencia de Caracteres</h2>
+  <p>Introduce un texto para ver cuántas veces aparece cada letra:</p>
+  <input type="text" id="entrada"><br><br>
+  <button onclick="mostrarFrecuencia()">Analizar</button>
+  <p id="res"></p>
+</body>
+</html>

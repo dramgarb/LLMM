@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function ordenarPalabras(texto) {
+      let palabras = texto.split(",");
+      palabras = palabras.map(p => p.trim()); // Elimina espacios
+      palabras.sort(); // Orden alfabético
+      return palabras.join(", ");
+    }
+
+    function mostrarOrden() {
+      let texto = document.getElementById("entrada").value;
+      let resultado = ordenarPalabras(texto);
+      document.getElementById("res").innerHTML = resultado;
+    }
+  </script>
+</head>
+<body>
+  <h2>Ordenar Palabras</h2>
+  <p>Introduce palabras separadas por comas:</p>
+  <input type="text" id="entrada"><br><br>
+  <button onclick="mostrarOrden()">Ordenar</button>
+  <p id="res"></p>
+</body>
+</html>

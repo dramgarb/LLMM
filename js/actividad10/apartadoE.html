@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function sum() {
+    var str = document.getElementById('su').value;
+    var n = str.split(',');
+    var suma = 0;
+    for(i = 0; i < n.length; i++) {
+        suma  += parseInt(n[i]);
+    } 
+    document.getElementById("res").innerHTML = suma;
+}
+
+
+function mul() {
+    var str = document.getElementById('su').value;
+    var n = str.split(',');
+    var mult = 1;
+    for(i = 0; i < n.length; i++) {
+        mult  *= parseInt(n[i]);
+    } 
+    document.getElementById("res").innerHTML = mult;
+}
+</script>
+
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> multiplica y suma tus numeros completamente gratis:</p>
+    <label for="su">Lista de número separados por coma : </label>
+    <input type="text" id="su" name="su"> <br>
+    <button type="button" onclick="sum()">sumar</button>
+    <button type="button" onclick="mul()">multiplicar</button>
+    <p id="res"></p> 
+</body>
+</html>
