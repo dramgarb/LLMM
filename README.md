@@ -72,4 +72,6 @@ Ejercicio | Descripcion
 [Actividad6](/js/actividad6/js06.html)|
 [Actividad7](/js/actividad7/index.html)|
 [Actividad8](/js/actividad8/js08.html)|
+[Actividad9](/js/actividad8/js08.html)|
+[Actividad10](/js/actividad10)|[A](/js/actividad10/apartadoA.html)
 
