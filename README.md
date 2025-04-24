@@ -83,3 +83,7 @@ Ejercicio | Descripcion
 [Actividad10](/js/actividad10)|[H](/js/actividad10/apartadoH.html)
 [Actividad10](/js/actividad10)|[I](/js/actividad10/apartadoI.html)
 [Actividad10](/js/actividad10)|[J](/js/actividad10/apartadoJ.html)
+[Actividad1DOM](/js/DOM1/index.html)|
+[Actividad2DOM](/js/DOM2/index.html)|
+[Actividad3DOM](/js/DOM3/index.html)|
+[Actividad4DOM](/js/DOM4/index.html)|
