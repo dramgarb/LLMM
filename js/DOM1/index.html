@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al DOM</title>
+    <style>
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de acceso al DOM</h1>
+    <p class="content">Este es el primer párrafo.</p>
+    <p class="content">Este es el segundo párrafo.</p>
+    <p class="content">Este es el tercer párrafo.</p>
+
+    <button onclick="mostrarParrafos()">Mostrar contenido de los párrafos</button>
+
+    <div id="output"></div>
+
+    <script>
+        function mostrarParrafos() {
+            // Obtener todos los párrafos con la clase 'content'
+            const parrafos = document.getElementsByClassName('content');
+            let contenido = '';
+
+            // Recorrer la colección de párrafos y concatenar su contenido
+            for (let i = 0; i < parrafos.length; i++) {
+                contenido += parrafos[i].textContent + '<br>';
+            }
+
+            // Mostrar el contenido en el div con id 'output'
+            document.getElementById('output').innerHTML = contenido;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear elementos</title>
+    <style>
+        #image-container {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agregar una imagen a un div</h1>
+    <button onclick="agregarImagen()">Agregar Imagen</button>
+
+    <div id="image-container"></div>
+
+    <script>
+        function agregarImagen() {
+            // Crear un elemento de imagen
+            const img = document.createElement('img');
+            
+            // Establecer los atributos de la imagen
+            img.src = 'https://st.depositphotos.com/1016440/2534/i/450/depositphotos_25344733-stock-photo-sunrise-at-the-beach.jpg'; // URL de la imagen
+            img.alt = 'Imagen de ejemplo';
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '100%';
+
+            // Obtener el div donde se agregará la imagen
+            const container = document.getElementById('image-container');
+
+            // Limpiar el contenido previo del div (opcional)
+            container.innerHTML = '';
+
+            // Agregar la imagen al div
+            container.appendChild(img);
+        }
+    </script>
+</body>
+</html>

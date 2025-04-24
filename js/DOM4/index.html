@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades del Documento</title>
+</head>
+<body>
+    <h1>Propiedades del Documento</h1>
+    <p>Esta página contiene algunos enlaces e imágenes para probar.</p>
+
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://www.github.com" target="_blank">GitHub</a><br>
+
+    <img src="https://www.keyweo.com/wp-content/uploads/2022/03/google-logo-history.jpg" alt="Imagen 1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="Imagen 2">
+
+    <script>
+        // Mostrar el título del documento
+        console.log("Título del documento:", document.title);
+
+        // Mostrar todas las imágenes del documento
+        const imagenes = document.images;
+        console.log("Imágenes en el documento:");
+        for (let i = 0; i < imagenes.length; i++) {
+            console.log(`- ${imagenes[i].src}`);
+        }
+
+        // Mostrar todos los enlaces del documento
+        const enlaces = document.links;
+        console.log("Enlaces en el documento:");
+        for (let i = 0; i < enlaces.length; i++) {
+            console.log(`- ${enlaces[i].href}`);
+        }
+    </script>
+</body>
+</html>

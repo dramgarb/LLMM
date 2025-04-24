@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar elementos de una lista</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eliminar elementos de una lista</h1>
+    <ul id="lista">
+        <li>hola</li>
+        <li>soy</li>
+        <li>Daniel</li>
+        <li>Ramirez</li>
+    </ul>
+    <button onclick="eliminarElemento()">Eliminar último elemento</button>
+
+    <script>
+        function eliminarElemento() {
+            // Obtener la lista
+            const lista = document.getElementById('lista');
+            
+            // Verificar si hay elementos en la lista
+            if (lista.hasChildNodes()) {
+                // Eliminar el último elemento de la lista
+                lista.removeChild(lista.lastChild);
+            } else {
+                alert('No hay más elementos para eliminar.');
+            }
+        }
+    </script>
+</body>
+</html>
