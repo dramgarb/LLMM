@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Concurso de Preguntas</h1>
+    <div id="language-selector">
+        <label for="language">Idioma:</label>
+        <select id="language" onchange="cargarIdioma()">
+            <option value="preguntas-es.xml">Español</option>
+            <option value="preguntas-en.xml">Inglés</option>
+        </select>
+    </div>    
+    <div id="quiz-container">
+        <p id="question"></p>
+        <div id="choices"></div>
+        <button id="next-button" onclick="muestraSiguiente()">Siguiente</button>
+    </div>
+    <p id="timer">Tiempo: 0 segundos</p>
+    <p id="score">Puntuación: 0</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
