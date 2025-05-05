@@ -89,3 +89,12 @@ Ejercicio | Descripcion
 [Actividad2DOM](/js/DOM2/index.html)|
 [Actividad3DOM](/js/DOM3/index.html)|
 [Actividad4DOM](/js/DOM4/index.html)|
+
+
+# Tema 4 - XML
+
+Ejercicio | Descripcion
+----------|--------------
+[Actividad1](/xml/actividad1/actividad1.xml)|
+[Actividad2](/xml/actividad2/ex2.xml)|
+[Actividad3](/xml/actividad3/ex3.xml)|[Errores3](xml/actividad3/ex3-err.txt)
