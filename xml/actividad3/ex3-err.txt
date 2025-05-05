@@ -1,0 +1,17 @@
+Errores encontrados y correcciones:
+
+1. Error: La etiqueta <president> no está cerrada correctamente antes de 
+<extension>.
+   Corrección: Mover <extension> dentro de <president>.
+
+2. Error: La etiqueta <secretary> no está cerrada correctamente antes de 
+<extension>.
+   Corrección: Mover <extension> dentro de <secretary>.
+
+3. Error: Las etiquetas <extension> están mal colocadas y no tienen un 
+formato válido.
+   Corrección: Asegurarse de que <extension> sea un subelemento de <president> y <secretary>.
+
+4. Error: El contenido de <president> y <secretary> no está bien estructurado.
+   Corrección: Separar el nombre y el número de extensión en 
+   subelementos <name> y <extension>.

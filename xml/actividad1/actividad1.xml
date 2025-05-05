@@ -1,0 +1,26 @@
+EJERCICIO 1
+
+1. ¿Cómo debería verse un elemento con el nombre test y el contenido 
+"This is our first element!"?
+
+<test>¡Este es nuestro primer elemento!</test>
+
+
+2. Muestra (en sintaxis XML) la jerarquía del elemento book con los 
+subelementos chapters y author. El elemento author tiene a su vez 
+los subelementos name y address.
+
+
+<book>
+    <chapters></chapters>
+    <author>
+        <name></name>
+        <address></address>
+    </author>
+</book>
+
+
+3. ¿Cómo se ve un elemento con el nombre entry que tiene 2 atributos: 
+no con el valor 24 y date con el valor
+
+<entry no="24" date="2023-10-01"></entry>
