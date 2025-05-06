@@ -98,3 +98,4 @@ Ejercicio | Descripcion
 [Actividad1](/xml/actividad1/actividad1.xml)|
 [Actividad2](/xml/actividad2/ex2.xml)|
 [Actividad3](/xml/actividad3/ex3.xml)|[Errores3](xml/actividad3/ex3-err.txt)
+[Actividad4](/xml/actividad4/ex4.xml)|
