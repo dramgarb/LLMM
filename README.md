@@ -111,3 +111,10 @@ Ejercicio | Descripcion
 ----------|--------------
 
 
+
+
+
+# Tema 6 - AJAX
+
+Ejercicio | Descripcion
+----------|--------------
