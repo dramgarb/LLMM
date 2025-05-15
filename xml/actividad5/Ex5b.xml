@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+    <!-- Este CD tiene más pistas de las que aparecen en este archivo -->
+    <CD serial="B6B41B" disc-length="42:19">
+        <Album>Thriller</Album>
+        <Artist>Michael Jackson</Artist>
+        <Year>1982</Year>
+        <Category>Pop</Category>
+        <Tracks>
+            <Track>
+                <Number>1</Number>
+                <Name>Wanna Be Startin' Somethin'</Name>
+                <Duration>6:03</Duration>
+            </Track>
+            <Track>
+                <Number>2</Number>
+                <Name>Baby Be Mine</Name>
+                <Duration>4:20</Duration>
+            </Track>
+            <Track>
+                <Number>3</Number>
+                <Name>The Girl Is Mine</Name>
+                <Duration>3:42</Duration>
+            </Track>
+        </Tracks>
+    </CD>
+</CDList>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letter>
+    <Sender>
+        <Name>Daniel Ramírez</Name>
+        <Address>Calle Principal 123, Ciudad, País</Address>
+        <Email>daniel.ramirez@example.com</Email>
+    </Sender>
+    <Receiver>
+        <Name>Juan Pérez</Name>
+        <Address>Avenida Secundaria 456, Ciudad, País</Address>
+        <Email>juan.perez@example.com</Email>
+    </Receiver>
+    <Date>2025-05-15</Date>
+    <Body>
+        <Paragraph>Estimado Juan,</Paragraph>
+        <Paragraph>
+            Espero que este mensaje te encuentre bien. Te escribo para informarte sobre el progreso de nuestro proyecto conjunto. 
+            Hemos completado la primera fase y estamos listos para avanzar a la siguiente etapa.
+        </Paragraph>
+        <Paragraph>
+            Por favor, házmelo saber si tienes alguna pregunta o necesitas más información. Estoy disponible para discutir cualquier detalle.
+        </Paragraph>
+        <Paragraph>Saludos cordiales,</Paragraph>
+    </Body>
+    <Signature>Daniel Ramírez</Signature>
+</Letter>

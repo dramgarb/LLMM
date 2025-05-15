@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+    <CD>
+        <Album>Thriller</Album>
+        <Artist>Michael Jackson</Artist>
+        <Year>1982</Year>
+        <Category>Pop</Category>
+        <Tracks>
+            <Track>
+                <Number>1</Number>
+                <Name>Wanna Be Startin' Somethin'</Name>
+                <Duration>6:03</Duration>
+            </Track>
+            <Track>
+                <Number>2</Number>
+                <Name>Baby Be Mine</Name>
+                <Duration>4:20</Duration>
+            </Track>
+            <Track>
+                <Number>3</Number>
+                <Name>The Girl Is Mine</Name>
+                <Duration>3:42</Duration>
+            </Track>
+        </Tracks>
+    </CD>
+</CDList>
