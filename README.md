@@ -99,3 +99,15 @@ Ejercicio | Descripcion
 [Actividad2](/xml/actividad2/ex2.xml)|
 [Actividad3](/xml/actividad3/ex3.xml)|[Errores3](xml/actividad3/ex3-err.txt)
 [Actividad4](/xml/actividad4/ex4.xml)|
+[Actividad5a](/xml/actividad5/Ex5a.xml)|[Actividad5b](/xml/actividad5/Ex5b.xml)
+[Actividad6](/xml/actividad6/Ex6.xml)
+[Actividad7](/xml/actividad7/Ex7.txt)
+
+
+
+# Tema 5 - XML-DOM
+
+Ejercicio | Descripcion
+----------|--------------
+
+
