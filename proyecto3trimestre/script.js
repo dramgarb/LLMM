@@ -4,6 +4,12 @@ let xmlDoc;
 let timer = 0;
 let intervalo;
 
+// Función para cargar el idioma predeterminado (español)
+function cargarIdiomaPredeterminado() {
+    document.getElementById("language").value = "preguntas-es.xml"; // Selecciona español por defecto
+    cargarIdioma(); // Llama a la función cargarIdioma
+}
+
 // Función para cargar el XML según idioma seleccionado
 function cargarIdioma() {
     num = 0;

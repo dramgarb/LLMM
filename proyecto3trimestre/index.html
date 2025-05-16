@@ -6,12 +6,12 @@
     <title>Concurso de Preguntas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="cargarIdiomaPredeterminado()">
     <h1>Concurso de Preguntas</h1>
     <div id="language-selector">
         <label for="language">Idioma:</label>
         <select id="language" onchange="cargarIdioma()">
-            <option value="preguntas-es.xml">Español</option>
+            <option value="preguntas-es.xml" selected>Español</option>
             <option value="preguntas-en.xml">Inglés</option>
         </select>
     </div>    

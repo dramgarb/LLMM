@@ -36,4 +36,22 @@
       <choice>Python</choice>
     </choices>
   </question>
+  <question id="4">
+    <wording>¿Qué lenguaje se usa para la interactividad en la web?</wording>
+    <choices>
+      <choice>HTML</choice>
+      <choice>CSS</choice>
+      <choice correct="yes">JavaScript</choice>
+      <choice>Python</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Qué significa HTTP?</wording>
+    <choices>
+      <choice>Protocolo de Transferencia de HiperTexto</choice>
+      <choice correct="yes">Protocolo de transferencia de hipertexto</choice>
+      <choice>Protocolo de Transmisión de HiperTexto</choice>
+      <choice>Protocolo de Enlace de HiperTexto</choice>
+    </choices>
+  </question>
 </test>

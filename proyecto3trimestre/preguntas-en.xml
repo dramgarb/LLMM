@@ -36,4 +36,22 @@
       <choice>Python</choice>
     </choices>
   </question>
+  <question id="4">
+    <wording>Which language is used for web interactivity?</wording>
+    <choices>
+      <choice>HTML</choice>
+      <choice>CSS</choice>
+      <choice correct="yes">JavaScript</choice>
+      <choice>Python</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>What does HTTP stand for?</wording>
+    <choices>
+      <choice>HyperText Transfer Protocol</choice>
+      <choice correct="yes">Hypertext Transfer Protocol</choice>
+      <choice>HyperText Transmission Protocol</choice>
+      <choice>Hyperlink Transfer Protocol</choice>
+    </choices>
+  </question>
 </test>
