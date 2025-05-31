@@ -110,7 +110,7 @@ Ejercicio | Descripcion
 Ejercicio | Descripcion
 ----------|--------------
 
-[Actividad2](/xml-dom/actividad1/Ejercicio2.html)
+[Actividad2](/xml-dom/actividad2/Ejercicio2.html)
 [Actividad3](/xml-dom/actividad3/Ejercicio3.html)
 
 
