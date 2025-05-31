@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información de discos</title>
+</head>
+<body>
+  <h2>Listado de CDs desde XML</h2>
+  <div id="contenido"></div>
+
+  <script>
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+      const datosXML = this.responseXML;
+      const titulos = datosXML.getElementsByTagName("TITLE");
+      const artistas = datosXML.getElementsByTagName("ARTIST");
+      const sellos = datosXML.getElementsByTagName("COMPANY");
+      const precios = datosXML.getElementsByTagName("PRICE");
+
+      let resultado = "";
+      for (let i = 0; i < titulos.length; i++) {
+        resultado += `<p><strong>${titulos[i].textContent}</strong> / `;
+        resultado += `${artistas[i].textContent} / `;
+        resultado += `${sellos[i].textContent} / `;
+        resultado += `$${precios[i].textContent}</p>`;
+      }
+
+      document.getElementById("contenido").innerHTML = resultado;
+    };
+
+    xhr.open("GET", "musicos.xml", true);
+    xhr.send();
+  </script>
+</body>
+</html>
