@@ -118,3 +118,6 @@ Ejercicio | Descripcion
 
 Ejercicio | Descripcion
 ----------|--------------
+
+[Actividad1](/AJAX/actividad1/index.html)|  
+[Actividad2](/AJAX/actividad2/index.html)| 
